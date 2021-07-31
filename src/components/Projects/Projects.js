@@ -1,4 +1,10 @@
-import { Box, Container, Grid, Typography } from "@material-ui/core";
+import {
+  Box,
+  CardActions,
+  Container,
+  Grid,
+  Typography,
+} from "@material-ui/core";
 import React, { Fragment } from "react";
 
 import Card from "@material-ui/core/Card";
@@ -10,6 +16,7 @@ import project2 from "./images/project2.JPG";
 import project3 from "./images/project3.JPG";
 import project4 from "./images/project4.JPG";
 import useStyles from "./projectStyles";
+import Dialog from "../Dialog";
 const Projects = () => {
   const classes = useStyles();
   const projectArray = [
@@ -17,38 +24,48 @@ const Projects = () => {
       img: project4,
       link: "http://localhost:3000/",
       title: "My Portfolio",
-      description:
-        "This is my portfolio project which was developed by React and used multiple libraries",
+      description: "My Portfolio is the responsive site developed with Reactjs",
     },
     {
       img: project3,
       link: "https://devconnector-co.herokuapp.com/",
       title: "DevConnector",
       description:
-        "This project was developed with the instructor while learning MERN stack.",
+        "DevConnector is developed with the instructor while learning MERN stack.",
     },
     {
       img: project2,
       link: "https://resumemaker-co.herokuapp.com/",
       title: "Resume Maker",
       description:
-        "This is developed by HTML, CSS, Javascript, Jquery as Frontend and Nodejs, Express and MongoDB as backend.",
+        "ResumeMaker is developed with basic HTML, CSS, Javascript and MongoDB",
     },
     {
       img: project1,
       link: "https://happpytour.000webhostapp.com/",
       title: "Tourism",
       description:
-        "This is my first project which I did in college.I have developed HTML, CSS, Bootstrap as Frontend and PHP, Mysql as Backend",
+        "This is my first project which I did in college. built by PHP and Mysql",
     },
   ].map((project) => (
     <Grid item md={6} lg={4}>
-      <Card className={classes.root} onClick={() => window.open(project.link)}>
-        <CardActionArea>
+      <Card className={classes.root}>
+        <CardActionArea
+          style={{
+            padding: "5px",
+            // background: "#F5F5F5",
+          }}
+        >
           <CardMedia
             className={classes.media}
             image={project.img}
             title={project.title}
+            style={{
+              borderRadius: "5px",
+              border: "1px solid lightgrey",
+              boxShadow: "1px 1px 1px lightgrey",
+            }}
+            onClick={() => window.open(project.link)}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">
@@ -59,6 +76,9 @@ const Projects = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
+        {/* <CardActions>
+          <Dialog head={project.title} body={project.description} />
+        </CardActions> */}
       </Card>
     </Grid>
   ));

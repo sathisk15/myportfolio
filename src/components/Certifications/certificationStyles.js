@@ -32,8 +32,14 @@ const useStyles = makeStyles((theme) => ({
     maxWidth: "100%",
     overflow: "hidden",
     width: "100%",
-    padding: "0 2px",
+    // padding: "0 2px",
+    padding: "20px",
+
+    "&:hover": {
+      cursor: "pointer",
+    },
   },
+
   imageContainer: {
     marginTop: theme.spacing(6),
   },

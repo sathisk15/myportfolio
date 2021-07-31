@@ -19,6 +19,10 @@ const useStyles = makeStyles((theme) => ({
   },
   media: {
     height: 230,
+    transition: "transform .4s",
+    "&:hover": {
+      transform: "scale(1.1)",
+    },
   },
 }));
 

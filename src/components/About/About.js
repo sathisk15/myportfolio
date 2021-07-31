@@ -33,7 +33,7 @@ const About = () => {
                   bachelors degree in computer science. Currently, I'm working
                   in TCS with 2 years of experience. I'm genuine, punctual and
                   competitive among the businesses. Also, I have good listening
-                  and communication skills.I work well in a team but also on my
+                  and communication skills. I work well in a team but also on my
                   own. I'm extremely interested to face new challenges and come
                   up with solutions. I'm always open to learn something new
                   which can help me to achieve my career goals as well as

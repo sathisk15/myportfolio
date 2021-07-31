@@ -108,10 +108,6 @@ const Certifications = () => {
                             className={classes.img}
                             src={step.imgPath}
                             alt={step.label}
-                            style={{
-                              "&:hover": { cursor: "pointer" },
-                              padding: "20px",
-                            }}
                             onClick={() => {
                               if (step.link !== "#") {
                                 window.open(step.link);

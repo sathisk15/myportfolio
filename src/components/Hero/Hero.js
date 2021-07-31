@@ -12,6 +12,8 @@ import useStyles from "./heroStyles";
 import Fade from "react-reveal/Fade";
 import Zoom from "react-reveal/Zoom";
 import Bounce from "react-reveal/Bounce";
+// Resume
+import Resume from "../../resume/Sathis.pdf";
 
 const Hero = () => {
   const classes = useStyles();
@@ -65,6 +67,7 @@ const Hero = () => {
                 className={classes.heroText}
                 sentences={[
                   "React Js",
+                  "Redux",
                   "Javascript",
                   "Node Js",
                   "Express Js",
@@ -87,7 +90,13 @@ const Hero = () => {
                     Hire Me!
                   </Button>
 
-                  <Button variant="contained" className={classes.getCv}>
+                  <Button
+                    variant="contained"
+                    className={classes.getCv}
+                    href={Resume}
+                    rel="noopener noreferrer"
+                    target="_blank"
+                  >
                     Get CV!
                   </Button>
                 </div>

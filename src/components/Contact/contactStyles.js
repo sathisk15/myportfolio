@@ -4,7 +4,6 @@ const useStyles = makeStyles((theme) => ({
   contactSection: {
     padding: "5px",
     margin: "50px 0",
-    height: "80vh",
     display: "flex",
     alignItems: "center",
   },

@@ -16,10 +16,11 @@ const useStyles = makeStyles((theme) => ({
     padding: "8px",
     margin: "10px",
     color: "white",
-    borderRadius: "50%",
     cursor: "pointer",
+    transition: "transform .4s",
     "&:hover": {
       color: "#FFF",
+      transform: "scale(1.1)",
     },
   },
 }));

@@ -22,7 +22,7 @@ const useStyles = makeStyles((theme) => ({
   footerIcon: {
     margin: "0 10px",
     color: "#FFF",
-    "&:hover": { cursor: "pointer" },
+    "&:hover": { cursor: "pointer", color: "#0A66C2" },
   },
   footerMe: {
     "&:hover": { cursor: "pointer" },

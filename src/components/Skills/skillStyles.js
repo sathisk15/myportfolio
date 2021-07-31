@@ -19,7 +19,10 @@ const useStyles = makeStyles((theme) => ({
     display: "flex",
     flexDirection: "column",
     alignItems: "center",
+    transition: "transform .4s",
+
     "&:hover": {
+      transform: "scale(1.1)",
       cursor: "pointer",
       position: "relative",
       overflow: "hidden",

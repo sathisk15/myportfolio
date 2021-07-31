@@ -1,6 +1,6 @@
 import {
   Box,
-  CardActions,
+  // CardActions,
   Container,
   Grid,
   Typography,
@@ -16,7 +16,7 @@ import project2 from "./images/project2.JPG";
 import project3 from "./images/project3.JPG";
 import project4 from "./images/project4.JPG";
 import useStyles from "./projectStyles";
-import Dialog from "../Dialog";
+// import Dialog from "../Dialog";
 const Projects = () => {
   const classes = useStyles();
   const projectArray = [

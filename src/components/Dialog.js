@@ -53,7 +53,7 @@ const DialogActions = withStyles((theme) => ({
   },
 }))(MuiDialogActions);
 
-const CustomDialog = ({ head, body }) => {
+const CustomDialog = ({ head, body, link }) => {
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -77,19 +77,12 @@ const CustomDialog = ({ head, body }) => {
           {head}
         </DialogTitle>
         <DialogContent dividers>
-          <Typography gutterBottom>{body}</Typography>
-          {/* <Typography gutterBottom>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquam
-            non fuga quisquam nihil necessitatibus velit, accusamus asperiores
-            vel, explicabo nesciunt voluptates sit rerum eos enim aut quae
-            delectus vero animi.
-          </Typography>
           <Typography gutterBottom>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate
-            necessitatibus sint quo odit at ullam facilis ad. Magnam minus iusto
-            quam, atque iure voluptatibus quaerat asperiores! Deserunt modi
-            laboriosam error!
-          </Typography> */}
+            <span>&emsp;&emsp;&emsp;&emsp;</span>
+            {body.purpose}
+          </Typography>
+
+          <Typography gutterBottom>{link}</Typography>
         </DialogContent>
         <DialogActions>
           <Button autoFocus onClick={handleClose} color="primary">

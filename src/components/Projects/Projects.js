@@ -1,6 +1,6 @@
 import {
   Box,
-  // CardActions,
+  CardActions,
   Container,
   Grid,
   Typography,
@@ -16,7 +16,7 @@ import project2 from "./images/project2.JPG";
 import project3 from "./images/project3.JPG";
 import project4 from "./images/project4.JPG";
 import useStyles from "./projectStyles";
-// import Dialog from "../Dialog";
+import Dialog from "../Dialog";
 const Projects = () => {
   const classes = useStyles();
   const projectArray = [
@@ -25,6 +25,13 @@ const Projects = () => {
       link: "http://localhost:3000/",
       title: "My Portfolio",
       description: "My Portfolio is the responsive site developed with Reactjs",
+      detailDescription: {
+        purpose:
+          "It is a portfolio site which is created to show an individual's Info and his skills, qualification, certifications etc...",
+        frontEnd:
+          "ReactJs, Material-Ui, CSS are the technologies that are used in this project",
+        backEnd: "",
+      },
     },
     {
       img: project3,
@@ -76,9 +83,9 @@ const Projects = () => {
             </Typography>
           </CardContent>
         </CardActionArea>
-        {/* <CardActions>
-          <Dialog head={project.title} body={project.description} />
-        </CardActions> */}
+        <CardActions>
+          <Dialog {...project} />
+        </CardActions>
       </Card>
     </Grid>
   ));

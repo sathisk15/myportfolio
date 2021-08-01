@@ -79,7 +79,7 @@ const CustomDialog = ({ head, body, link }) => {
         <DialogContent dividers>
           <Typography gutterBottom>
             <span>&emsp;&emsp;&emsp;&emsp;</span>
-            {body.purpose}
+            // {body.purpose}
           </Typography>
 
           <Typography gutterBottom>{link}</Typography>

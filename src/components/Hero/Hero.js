@@ -30,8 +30,8 @@ const Hero = () => {
         <Grid container item xs={11} sm={6} md={5} justifyContent="center">
           <Grid
             item
-            justifyContent="center"
-            alignItems="center"
+            // justifyContent="center"
+            // alignItems="center"
             className={classes.heroLeftSection}
           >
             <Typist

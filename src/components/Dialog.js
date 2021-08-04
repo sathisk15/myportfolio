@@ -1,5 +1,5 @@
 import React from "react";
-import { withStyles } from "@material-ui/core/styles";
+import { withStyles, makeStyles } from "@material-ui/core/styles";
 import Button from "@material-ui/core/Button";
 import Dialog from "@material-ui/core/Dialog";
 import MuiDialogTitle from "@material-ui/core/DialogTitle";
@@ -52,8 +52,18 @@ const DialogActions = withStyles((theme) => ({
     padding: theme.spacing(1),
   },
 }))(MuiDialogActions);
-
-const CustomDialog = ({ head, body, link }) => {
+const useStyles = makeStyles((theme) => ({
+  link: {
+    color: "#3f51b5",
+    "&:hover": {
+      color: "#D268CC",
+      cursor: "pointer",
+    },
+  },
+}));
+const CustomDialog = (props) => {
+  const classes = useStyles();
+  const { head, dis, link } = props;
   const [open, setOpen] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -79,10 +89,26 @@ const CustomDialog = ({ head, body, link }) => {
         <DialogContent dividers>
           <Typography gutterBottom>
             <span>&emsp;&emsp;&emsp;&emsp;</span>
-            // {body.purpose}
+            {dis.purpose}
           </Typography>
+          <Typography gutterBottom>
+            <span style={{ fontWeight: "bold" }}>Frontend: </span>
+            {dis.frontEnd}
+          </Typography>
+          {dis.backEnd && (
+            <Typography gutterBottom>
+              <span style={{ fontWeight: "bold" }}>Backend: </span>
+              {dis.backEnd}
+            </Typography>
+          )}
 
-          <Typography gutterBottom>{link}</Typography>
+          <Typography
+            gutterBottom
+            className={classes.link}
+            onClick={() => window.open(link)}
+          >
+            Visit here <i class="fas fa-check-circle"></i>
+          </Typography>
         </DialogContent>
         <DialogActions>
           <Button autoFocus onClick={handleClose} color="primary">

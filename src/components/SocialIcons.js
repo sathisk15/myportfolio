@@ -52,8 +52,9 @@ const SocialIcons = () => {
       icon: <TwitterIcon />,
       label: "Twitter",
     },
-  ].map((icon) => (
+  ].map((icon, i) => (
     <IconButton
+      key={i}
       aria-label="LinkedIn"
       className={classes.socialIcons}
       style={{ background: icon.bgColor }}

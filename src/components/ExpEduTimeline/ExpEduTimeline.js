@@ -60,7 +60,7 @@ const ExpEduTimeline = () => {
   const mobileView = (
     <Timeline>
       {expEduData.map((data, index) => (
-        <div className={classes.MobileViewTimeline}>
+        <div className={classes.MobileViewTimeline} key={index}>
           <TimelineSeparator>
             <TimelineDot color="primary">{data.icon}</TimelineDot>
             {index !== expEduData.length - 1 ? <TimelineConnector /> : ""}
@@ -105,7 +105,7 @@ const ExpEduTimeline = () => {
               <div>
                 <Timeline className={classes.desktopView} align="alternate">
                   {expEduData.map((data, index) => (
-                    <TimelineItem>
+                    <TimelineItem key={index}>
                       <TimelineOppositeContent>
                         <Typography
                           variant="body1"

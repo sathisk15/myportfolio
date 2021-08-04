@@ -86,8 +86,9 @@ const Sidebar = ({ type }) => {
           { menu: "Education", icon: <SchoolIcon /> },
           { menu: "Experience", icon: <WorkIcon /> },
           { menu: "Contact", icon: <ContactPhoneIcon /> },
-        ].map((menuItems) => (
+        ].map((menuItems, i) => (
           <LinkS
+            key={i}
             to={menuItems.menu}
             spy={true}
             smooth={true}

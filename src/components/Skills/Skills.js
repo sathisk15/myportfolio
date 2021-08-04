@@ -46,8 +46,8 @@ const Skills = () => {
       name: "Bootstrap",
       link: "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
     },
-  ].map((skill) => (
-    <Grid item xs={4} sm={4} md={3} lg={2}>
+  ].map((skill, i) => (
+    <Grid item xs={4} sm={4} md={3} lg={2} key={i}>
       <Paper
         elevation={3}
         className={classes.skillImgContainer}
@@ -82,7 +82,7 @@ const Skills = () => {
             >
               {skillsArray}
 
-              <Grid item xs={4} sm={4} md={3} lg={2}>
+              <Grid item xs={4} sm={4} md={3} lg={2} key={"express"}>
                 <Paper
                   elevation={3}
                   className={classes.skillImgContainer}
@@ -96,7 +96,7 @@ const Skills = () => {
                   />
                 </Paper>
               </Grid>
-              <Grid item xs={4} sm={4} md={3} lg={2}>
+              <Grid item xs={4} sm={4} md={3} lg={2} key={"MTA"}>
                 <Paper
                   elevation={3}
                   className={classes.skillImgContainer}

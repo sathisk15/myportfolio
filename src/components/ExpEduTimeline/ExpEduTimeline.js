@@ -19,7 +19,7 @@ const expEduData = [
     heading: "Tata Consultancy Service",
     subHeading: "Programmer",
     period: "Sep 2019 - Present",
-    description: "",
+    description: "A professional approach in risk management for Front Office traders and analyzing the data and services with the help of applications. Also handling issues while processing data in the applications.",
     companyLink: "https://www.tcs.com/",
     icon: <WorkIcon />,
   },

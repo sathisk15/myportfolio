@@ -58,7 +58,7 @@ const Hero = () => {
               </Typography>
               <Typist.Delay ms={50} />
               <Typography className={classes.heroText} variant="h5">
-                Full stack developer
+                MERN stack developer
               </Typography>
             </Typist>
             <Typography variant="h6">

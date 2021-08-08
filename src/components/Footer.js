@@ -25,7 +25,7 @@ const useStyles = makeStyles((theme) => ({
     "&:hover": { cursor: "pointer", color: "#0A66C2" },
   },
   footerMe: {
-    "&:hover": { cursor: "pointer" },
+    "&:hover": { cursor: "pointer", color: "#0A66C2", fontWeigth: "bold" },
   },
 }));
 const Footer = () => {

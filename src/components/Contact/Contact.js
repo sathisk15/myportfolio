@@ -7,6 +7,7 @@ import PhoneIphoneIcon from "@material-ui/icons/PhoneIphone";
 import EmailIcon from "@material-ui/icons/Email";
 import LocationOnIcon from "@material-ui/icons/LocationOn";
 import SocialIcons from "../SocialIcons";
+import LanguageIcon from "@material-ui/icons/Language";
 const Contact = () => {
   const classes = useStyles();
   return (
@@ -74,6 +75,10 @@ const Contact = () => {
                       <p>
                         <LocationOnIcon style={{ margin: "2px 15px" }} />
                         Bangalore
+                      </p>
+                      <p>
+                        <LanguageIcon style={{ margin: "2px 15px" }} />
+                        www.sathiskumar.info
                       </p>
                       <SocialIcons />
                     </div>

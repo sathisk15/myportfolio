@@ -17,9 +17,10 @@ import useStyles from "./ExpEduTimelineStyle";
 const expEduData = [
   {
     heading: "Tata Consultancy Service",
-    subHeading: "Programmer",
+    subHeading: "Developer",
     period: "Sep 2019 - Present",
-    description: "A professional approach in risk management for Front Office traders and analyzing the data and services with the help of applications. Also handling issues while processing data in the applications.",
+    description:
+      "A professional approach in risk management for Front Office traders and analyzing the data and services with the help of applications. Also handling issues while processing data in the applications.",
     companyLink: "https://www.tcs.com/",
     icon: <WorkIcon />,
   },

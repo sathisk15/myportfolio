@@ -38,7 +38,14 @@ const Footer = () => {
           <div className={classes.footerContent}>
             <p style={{ margin: "2px auto" }}>
               Copyright © 2021 All rights reserved | This site developed by{" "}
-              <span className={classes.footerMe}>Me</span>
+              <span
+                className={classes.footerMe}
+                onClick={() =>
+                  window.open("https://www.linkedin.com/in/rsathisk15/")
+                }
+              >
+                Me
+              </span>
             </p>
             <p style={{ margin: "2px auto", padding: "2px" }}>
               <LinkedInIcon

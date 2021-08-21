@@ -30,16 +30,17 @@ const About = () => {
               <Box className={classes.about}>
                 <Typography variant="body2" className={classes.abtContent}>
                   <span>&emsp;&emsp;&emsp;&emsp;</span>I'am Sathiskumar, with a
-                  bachelors degree in computer science. Currently, I'm working
-                  in TCS with 2 years of experience. I'm genuine, punctual and
+                  bachelor degree in computer science. Currently, I'm working in
+                  TCS with 2 years of experience. I'm genuine, punctual and
                   competitive among the businesses. Also, I have good listening
                   and communication skills. I work well in a team but also on my
                   own. I'm extremely interested to face new challenges and come
                   up with solutions. I'm always open to learn something new
                   which can help me to achieve my career goals as well as
                   organization's goals. I have a passion and also with good
-                  knowledge in developing Web Applications using ReactJs, Nodejs
-                  and MongoDB. Scroll down for projects that I have worked.
+                  knowledge in developing Web Applications using ReactJs,
+                  Nodejs, Expressjs and MongoDB. Scroll down for projects that I
+                  have worked.
                 </Typography>
                 <SocialIcons />
               </Box>

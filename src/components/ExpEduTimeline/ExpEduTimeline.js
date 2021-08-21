@@ -34,7 +34,7 @@ const expEduData = [
     icon: <WorkIcon />,
   },
   {
-    heading: "Bachelors of science in computer science (B.Sc., CS)",
+    heading: "Bachelor of science in computer science (B.Sc., CS)",
     subHeading: "Bishop Heber College, Bharathidasan University.",
     period: "Apr 2016 – Mar 2019",
     // description: "Scored 75%",

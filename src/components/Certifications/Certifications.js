@@ -10,6 +10,7 @@ import { autoPlay } from "react-swipeable-views-utils";
 import { useTheme } from "@material-ui/core/styles";
 import cert0 from "./images/cert0.JPG";
 import cert1 from "./images/cert1.JPG";
+import cert2 from "./images/cert2.JPG";
 import cert3 from "./images/cert3.JPG";
 import award0 from "./images/award0.JPG";
 import award1 from "./images/award1.JPG";
@@ -25,8 +26,12 @@ const tutorialSteps = [
   },
   {
     imgPath: cert1,
-    link: "https://www.udemy.com/course/the-web-developer-bootcamp/",
+    link: "https://www.udemy.com/course/modern-react-bootcamp/",
     label: "We developer bootcamp",
+  },{
+    imgPath: cert2,
+    link: "https://www.udemy.com/course/the-web-developer-bootcamp/",
+    label: "Web developer bootcamp",
   },
   {
     imgPath: cert3,

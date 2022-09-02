@@ -58,7 +58,7 @@ const Hero = () => {
               </Typography>
               <Typist.Delay ms={50} />
               <Typography className={classes.heroText} variant="h5">
-                MERN stack developer
+                Frontend web developer
               </Typography>
             </Typist>
             <Typography variant="h6">
@@ -66,9 +66,9 @@ const Hero = () => {
                 startDelay={"8000"}
                 className={classes.heroText}
                 sentences={[
+                  "Javascript",
                   "React Js",
                   "Redux",
-                  "Javascript",
                   "Node Js",
                   "Express Js",
                   "MongoDB",

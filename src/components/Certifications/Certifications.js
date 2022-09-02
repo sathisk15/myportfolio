@@ -9,11 +9,12 @@ import SwipeableViews from "react-swipeable-views";
 import { autoPlay } from "react-swipeable-views-utils";
 import { useTheme } from "@material-ui/core/styles";
 import cert0 from "./images/cert0.JPG";
-import cert1 from "./images/cert1.jpg";
+import cert1 from "./images/cert1.JPG";
 import cert2 from "./images/cert2.JPG";
 import cert3 from "./images/cert3.JPG";
 import award0 from "./images/award0.JPG";
 import award1 from "./images/award1.JPG";
+import award2 from "./images/award2.jpg";
 
 import useStyles from "./certificationStyles";
 const AutoPlaySwipeableViews = autoPlay(SwipeableViews);
@@ -50,6 +51,11 @@ const tutorialSteps = [
     link: "#",
     label: "Fresco Play Miles Award",
   },
+  {
+    imgPath: award2,
+    link: "#",
+    label: "Service & Commitment Award",
+  },
 ];
 
 const Certifications = () => {
@@ -80,7 +86,7 @@ const Certifications = () => {
             alignItems="center"
           >
             <Grid item className={classes.certificationHeading}>
-              <Typography variant="h6">Certifications & Awards</Typography>
+              <Typography variant="h6">Awards & Certifications</Typography>
             </Grid>
             <Grid
               item

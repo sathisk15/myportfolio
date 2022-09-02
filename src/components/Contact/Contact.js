@@ -66,7 +66,7 @@ const Contact = () => {
                       </p>
                       <p>
                         <PhoneIphoneIcon style={{ margin: "2px 15px" }} />
-                        +91 7010833302
+                        +48 579175733
                       </p>
                       <p>
                         <EmailIcon style={{ margin: "2px 15px" }} />
@@ -74,11 +74,11 @@ const Contact = () => {
                       </p>
                       <p>
                         <LocationOnIcon style={{ margin: "2px 15px" }} />
-                        Bangalore
+                        Wroclaw, Poland
                       </p>
                       <p>
                         <LanguageIcon style={{ margin: "2px 15px" }} />
-                        www.sathiskumar.info
+                        myportfolio-sk.web.app
                       </p>
                       <SocialIcons />
                     </div>

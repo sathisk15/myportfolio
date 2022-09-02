@@ -1,10 +1,9 @@
 import React from "react";
 import IconButton from "@material-ui/core/IconButton";
 import FacebookIcon from "@material-ui/icons/Facebook";
-import TwitterIcon from "@material-ui/icons/Twitter";
 import InstagramIcon from "@material-ui/icons/Instagram";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
-
+import GitHubIcon from '@material-ui/icons/GitHub';
 import { makeStyles } from "@material-ui/core/styles";
 
 const useStyles = makeStyles((theme) => ({
@@ -47,10 +46,10 @@ const SocialIcons = () => {
       label: "Facebook",
     },
     {
-      bgColor: "#1DA1F2",
-      link: "https://twitter.com/SATHISK98457147?s=08",
-      icon: <TwitterIcon />,
-      label: "Twitter",
+      bgColor: "#171515",
+      link: "https://github.com/sathisk15",
+      icon: <GitHubIcon />,
+      label: "GitHub",
     },
   ].map((icon, i) => (
     <IconButton

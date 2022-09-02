@@ -17,10 +17,19 @@ import useStyles from "./ExpEduTimelineStyle";
 const expEduData = [
   {
     heading: "Tata Consultancy Service",
-    subHeading: "Developer",
-    period: "Sep 2019 - Present",
+    subHeading: "Frontend web developer",
+    period: "May 2021 - Present",
     description:
-      "A professional approach in risk management for Front Office traders and analyzing the data and services with the help of applications. Also handling issues while processing data in the applications.",
+      "A professional approach in developing dynamic, interactive and user friendly web applications. Optimizing and maintaining the user interface. Fixing bugs and testing for usability.",
+    companyLink: "https://www.tcs.com/",
+    icon: <WorkIcon />,
+  },
+  {
+    heading: "Tata Consultancy Service",
+    subHeading: "System Engineer",
+    period: "Sep 2019 - Apr 2021",
+    description:
+      "Risk Management for Front Office traders and analyzing the data and services with the help of applications. Also handling issues while processing data in the applications.",
     companyLink: "https://www.tcs.com/",
     icon: <WorkIcon />,
   },

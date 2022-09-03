@@ -20,7 +20,16 @@ const expEduData = [
     subHeading: "Frontend web developer",
     period: "May 2021 - Present",
     description:
-      "A professional approach in developing dynamic, interactive and user friendly web applications. Optimizing and maintaining the user interface. Fixing bugs and testing for usability.",
+      `Creating user friendly web tools with smooth interface and
+      providing continues updates for enhancement and
+      ensuring the web pages run smoothly and easy to use. Optimizing web application for maximum speed.
+      Fixing bugs and testing for usability in the existing
+      Working with multiple NPM packages
+      Building React components for single page web
+      applications
+      GIT repository for version control
+      Hands on experience with server-side routing with RESTful
+      API’s and basic DB CRUD operations.`,
     companyLink: "https://www.tcs.com/",
     icon: <WorkIcon />,
   },
@@ -29,7 +38,16 @@ const expEduData = [
     subHeading: "System Engineer",
     period: "Sep 2019 - Apr 2021",
     description:
-      "Risk Management for Front Office traders and analyzing the data and services with the help of applications. Also handling issues while processing data in the applications.",
+      `Risk management for Front Office traders and analyzing
+      the data and services with the help of applications. Also
+      handling issues while processing data in the applications.
+      Automating daily repeated manual tasks with help of
+      LEAPWORK tool.
+      Raising and tracking Jira’s with developers for a bugfix and
+      improvements.
+      Managing team as Shift lead during critical deliverables
+      before OLA breaches.
+      `,
     companyLink: "https://www.tcs.com/",
     icon: <WorkIcon />,
   },

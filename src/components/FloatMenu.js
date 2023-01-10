@@ -63,6 +63,8 @@ const FloatMenu = () => {
           onClick={handleDropdown}
           style={{
             backgroundColor: '#0a66c2',
+            // background:
+            //   "linear-gradient(90deg, rgba(255,102,179,1) 0%, rgba(194,148,233,1) 100%)",
             color: '#FFF',
           }}
         >

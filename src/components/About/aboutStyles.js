@@ -1,25 +1,25 @@
-import { makeStyles } from "@material-ui/core/styles";
+import { makeStyles } from '@material-ui/core/styles';
 
 const useStyles = makeStyles((theme) => ({
   aboutSection: {
-    padding: "5px",
-    margin: "50px 0",
+    padding: '5px',
+    margin: '50px 0',
     // height: "100vh",
-    display: "flex",
-    alignItems: "center",
+    display: 'flex',
+    alignItems: 'center',
   },
   headingAbout: {
-    padding: "5px",
-    margin: "auto",
-    borderBottom: "2px solid #D268CC",
+    padding: '5px',
+    margin: 'auto',
+    borderBottom: '2px solid #0a66c2',
   },
   aboutLeftSection: {
-    width: "50%",
+    width: '50%',
   },
   aboutRightSection: {
-    width: "50%",
-    display: "flex",
-    flexDirection: "column",
+    width: '50%',
+    display: 'flex',
+    flexDirection: 'column',
   },
   about: {
     // borderRadius: "100% 100% 100% 100% / 100% 100% 100% 100%",

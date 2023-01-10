@@ -1,19 +1,19 @@
-import React from "react";
-import { Grid, Typography } from "@material-ui/core";
-import Button from "@material-ui/core/Button";
-import SocialIcons from "../SocialIcons";
-import heroImg from "../../images/herobg.jpg";
+import React from 'react';
+import { Grid, Typography } from '@material-ui/core';
+import Button from '@material-ui/core/Button';
+import SocialIcons from '../SocialIcons';
+import heroImg from '../../images/herobg.jpg';
 
-import Typist from "react-typist";
-import Typist2 from "react-text-typist";
+import Typist from 'react-typist';
+import Typist2 from 'react-text-typist';
 // Custom Styles
-import useStyles from "./heroStyles";
+import useStyles from './heroStyles';
 // React-Reveal
-import Fade from "react-reveal/Fade";
-import Zoom from "react-reveal/Zoom";
-import Bounce from "react-reveal/Bounce";
+import Fade from 'react-reveal/Fade';
+import Zoom from 'react-reveal/Zoom';
+import Bounce from 'react-reveal/Bounce';
 // Resume
-import Resume from "../../resume/Sathis.pdf";
+import Resume from '../../resume/Sathis.pdf';
 
 const Hero = () => {
   const classes = useStyles();
@@ -24,7 +24,7 @@ const Hero = () => {
         container
         justifyContent="space-around"
         alignItems="center"
-        style={{ height: "85%" }}
+        style={{ height: '85%' }}
         className={classes.heroSection}
       >
         <Grid container item xs={11} sm={6} md={5} justifyContent="center">
@@ -38,7 +38,7 @@ const Hero = () => {
               cursor={{
                 show: true,
                 blink: true,
-                element: "",
+                element: '',
                 hideWhenDone: false,
                 hideWhenDoneDelay: 1000,
               }}
@@ -63,24 +63,29 @@ const Hero = () => {
             </Typist>
             <Typography variant="h6">
               <Typist2
-                startDelay={"8000"}
+                startDelay={'8000'}
                 className={classes.heroText}
                 sentences={[
-                  "Javascript",
-                  "React Js",
-                  "Redux",
-                  "Node Js",
-                  "Express Js",
-                  "MongoDB",
-                  "Html",
-                  "Css",
+                  'React Js',
+                  'Redux',
+                  'Javascript',
+                  'Html',
+                  'Css',
+                  'Git',
+                  'GitHub',
+                  'CI/CD',
+                  'Axios',
+                  'Bootstrap',
+                  'Node Js',
+                  'Express Js',
+                  'MongoDB',
                 ]}
                 loop
               />
             </Typography>
             <Fade bottom delay={9500}>
-              <div style={{ display: "flex" }}>
-                <div style={{ margin: "10px auto" }}>
+              <div style={{ display: 'flex' }}>
+                <div style={{ margin: '10px auto' }}>
                   <Button
                     variant="contained"
                     className={classes.hireMe}
@@ -116,12 +121,12 @@ const Hero = () => {
           md={7}
           justifyContent="center"
         >
-          <Grid item style={{ display: "flex" }}>
+          <Grid item style={{ display: 'flex' }}>
             <Zoom delay={9000}>
               <img
                 src={heroImg}
                 alt="HeroImg"
-                style={{ margin: "auto" }}
+                style={{ margin: 'auto' }}
                 width="80%"
               />
             </Zoom>

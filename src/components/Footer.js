@@ -37,15 +37,15 @@ const Footer = () => {
         <Container>
           <div className={classes.footerContent}>
             <p style={{ margin: '2px auto' }}>
-              Copyright © 2023 All rights reserved | Created by{' '}
-              <span
+              Copyright © 2023 All rights reserved
+              {/* <span
                 className={classes.footerMe}
                 onClick={() =>
                   window.open('https://www.linkedin.com/in/rsathisk15/')
                 }
               >
                 Me
-              </span>
+              </span> */}
             </p>
             <p style={{ margin: '2px auto', padding: '2px' }}>
               <LinkedInIcon

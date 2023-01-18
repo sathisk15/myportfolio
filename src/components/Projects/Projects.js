@@ -17,25 +17,12 @@ import project2 from './images/project2.JPG';
 import project3 from './images/project3.JPG';
 import project4 from './images/project4.png';
 import project5 from './images/project5.png';
+import project6 from './images/project6.png';
 import useStyles from './projectStyles';
 // import Dialog from '../Dialog';
 const Projects = () => {
   const classes = useStyles();
   const projectArray = [
-    {
-      img: project5,
-      link: 'https://movieapp-9e173.web.app/',
-      source: 'https://github.com/sathisk15/MovieApp',
-      title: 'Movie App',
-      description: '',
-      detailDescription: {
-        purpose: '',
-        // An online portfolio will certainly increase your visibility and presence.
-        frontEnd:
-          'ReactJs, Material-Ui, CSS are the technologies that are used in this project',
-        backEnd: '',
-      },
-    },
     {
       img: project4,
       link: 'https://myportfolio-sk.web.app/',
@@ -51,6 +38,35 @@ const Projects = () => {
         backEnd: '',
       },
     },
+    {
+      img: project6,
+      link: 'https://proshoppingapp.azurewebsites.net/',
+      source: 'https://github.com/sathisk15/ProShop',
+      title: 'ProShop',
+      description: 'ProShop',
+      detailDescription: {
+        purpose: 'ProShop',
+        // An online portfolio will certainly increase your visibility and presence.
+        frontEnd:
+          'ReactJs, Material-Ui, CSS are the technologies that are used in this project',
+        backEnd: '',
+      },
+    },
+    {
+      img: project5,
+      link: 'https://movieapp-9e173.web.app/',
+      source: 'https://github.com/sathisk15/MovieApp',
+      title: 'Movie App',
+      description: '',
+      detailDescription: {
+        purpose: '',
+        // An online portfolio will certainly increase your visibility and presence.
+        frontEnd:
+          'ReactJs, Material-Ui, CSS are the technologies that are used in this project',
+        backEnd: '',
+      },
+    },
+
     {
       img: project3,
       link: 'https://devconnector-co.herokuapp.com/',
